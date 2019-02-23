@@ -202,5 +202,5 @@ var POINTERCOLOR = (function (m) {
 // It's nice to be able
 // to turn on/off the features
 // at one place
-//SCROLLCOLOR.init()
-//POINTERCOLOR.init();
+SCROLLCOLOR.init()
+POINTERCOLOR.init();
