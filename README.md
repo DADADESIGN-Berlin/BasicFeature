@@ -8,7 +8,7 @@ I sometimes vary a little bit from common coding style, but I find it very usefu
 
 ## Declaring variables:
 
-1.) I like to split the var-keyword and the declaration in multiple lines and declare all variables as a list like this:
+1.) I like to split the var-keyword and the declaration in multiple lines and declare all variables in a list like this:
 
 ```javascript
 var
