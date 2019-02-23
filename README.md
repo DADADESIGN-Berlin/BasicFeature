@@ -39,7 +39,7 @@ h = $someId.height();
 ```
 
 **Explanation:**
-The $ signals jQuery-objects, that you can call jQuery-methods on.
+The $-prefix signals a jQuery-object, that you can call jQuery-methods on.
 
 When creating DOM objects with jQuery, I find it more consistent to do it with singlequotes cause the html looks right from the start:
 
