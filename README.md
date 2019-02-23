@@ -26,7 +26,7 @@ I find it easier for the eyes to have it all verical lined up.
  
  
  
-2.) Accessing the DOM like this, using singlequotes and no spaces:
+2.) Accessing the DOM using singlequotes, no spaces and prefix jQuery-objects with $:
 
 ```javascript
 var
@@ -39,7 +39,7 @@ h = $someId.height();
 
 **Explanation:**
 The $ signals jQuery-objects, that you can call jQuery-methods on.
-When creating DOM objects with jQuery, it is more consistent to do it like so. See, the html looks right from the start:
+When creating DOM objects with jQuery, I find it more consistent to do it with singlequotes cause the html looks right from the start:
 
 ```javascript
 $div = $('<div class="box"></div>');
