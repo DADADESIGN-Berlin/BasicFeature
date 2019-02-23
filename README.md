@@ -1,7 +1,8 @@
 # BasicProject
 
 This is how I use **revealing modulare patterns** to organize and encapsulate my code in all my projects.
-It makes it easy to import features from other projects and it provides easy access to global helpers.
+It makes it very easy to import features from other modulare projects and it provides easy access to a bunch of global helpers.
+
 I sometimes vary a little bit from common coding style, but I find it very useful to do it like this and encourage all of you to pick up what you like.
 
 
