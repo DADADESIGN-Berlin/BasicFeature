@@ -1,5 +1,7 @@
 # BasicProject
 
+##Js/main.js
+
 This is how I use **revealing modulare patterns** to organize and encapsulate my code in all my projects.
 It makes it very easy to import features from other modulare projects and it provides easy access to a bunch of global helpers.
 
