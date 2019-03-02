@@ -1,4 +1,4 @@
-# New Feature
+# Basic Feature
 
 ## Js/main.js ##
 
