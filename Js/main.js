@@ -8,7 +8,7 @@
 // Polyfill the window objects
 // 'requestAnimationFrame' and
 // 'cancelAnimationFrame'
-    
+
 var animationFrameTimeout;
 var requestAnimationFrame =
 window.requestAnimationFrame ||
@@ -27,10 +27,10 @@ clearTimeout(animationFrameTimeout);
 window.cancelAnimationFrame = cancelAnimationFrame;
 
 var MAIN = (function() {
-    
+
     // Main project module 'MAIN'
     // provides helper methods
-    // and project globals    
+    // and project globals
 
     // Project globals
     var
@@ -86,7 +86,6 @@ var MAIN = (function() {
 
 })();//MAIN
 
-
 var FEATURE01 = (function (m) {
     // Quick import all from MAIN
     for( g in m ){ this[g] = m[g] }
@@ -94,9 +93,12 @@ var FEATURE01 = (function (m) {
     var
     init = function(){
         some()
-    },        
+    },
     some = function(){
-        // DO stuff
+        // Do stuff, write easy
+        loop(5,function(i){
+            info(i)
+        })
     }
 
     return{
@@ -105,27 +107,6 @@ var FEATURE01 = (function (m) {
 
 })(MAIN)//FEATURE01
 
-var FEATURE02 = (function (m) {
-    // Quick import all from MAIN
-    for( g in m ){ this[g] = m[g] }
+FEATURE01.init();
 
-    var
-    init = function(){
-        some()
-    },        
-    some = function(){
-        // DO stuff
-    }
-
-    return{
-        init: init
-    }
-
-})(MAIN)//FEATURE02
-
-
-// Manage Features at one place
-FEATURE01.init();  
-//FEATURE02.init();    
-    
-})()/End of File
+})()//End of File
