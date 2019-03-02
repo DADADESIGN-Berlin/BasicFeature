@@ -27,7 +27,6 @@ clearTimeout(animationFrameTimeout);
 window.cancelAnimationFrame = cancelAnimationFrame;
 
 var MAIN = (function() {
-
     // Main project module
     // provides helper methods
     // and project globals
