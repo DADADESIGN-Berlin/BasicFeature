@@ -124,7 +124,8 @@ var FEATURE02 = (function (m) {
 })(MAIN)//FEATURE02
 
 
+// Manage Features at one place
 FEATURE01.init();  
-FEATURE02.init();    
+//FEATURE02.init();    
     
 })//End of File
