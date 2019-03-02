@@ -60,7 +60,7 @@ var MODUL = (function(){
     init = function(){
     
         var 
-        instance = new Contructor()    
+        instance = new Contructor(5)    
         
     },
     Constructor = function(a){
@@ -72,7 +72,10 @@ var MODUL = (function(){
         init: init
     }
     
-})()
+})()//MODUL
+
+MODUL.init()
+
 ```
 
 **Explanation:**
