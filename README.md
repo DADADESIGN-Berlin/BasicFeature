@@ -1,4 +1,4 @@
-# BasicProject
+# Basic Project
 
 ## Js/main.js ##
 
