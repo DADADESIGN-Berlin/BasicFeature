@@ -20,7 +20,7 @@ alt = 'alt text ';
 
 str += alt;
 
-console.log(str)
+console.log(str);
 ```
 
 **Explanation:**
@@ -60,11 +60,11 @@ var MODUL = (function(){
     init = function(){
     
         var 
-        instance = new Contructor(5)    
+        instance = new Contructor(5);
         
     },
     Constructor = function(a){
-        this.x = a
+        this.x = a;
     }
     
     
@@ -74,7 +74,7 @@ var MODUL = (function(){
     
 })()//MODUL
 
-MODUL.init()
+MODUL.init();
 
 ```
 
