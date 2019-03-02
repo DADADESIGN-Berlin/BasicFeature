@@ -52,7 +52,7 @@ $div = $('<div class="box"></div>');
 ## Encapsulating code:
 
 I use the 'revealing modulare pattern' for encapsulation most of the times.
-I would even encapsulate a constructor in such a pattern. This makes it very easy to port features through projects.
+I would even encapsulate a constructor in such a pattern. This makes it very easy reuse features all over your projects.
 
 ```javascript
 var MODUL = (function(){
