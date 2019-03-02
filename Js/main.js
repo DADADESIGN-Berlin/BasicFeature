@@ -87,7 +87,7 @@ var MAIN = (function() {
 })();//MAIN
 
 
-var FEATURE = (function (m) {
+var FEATURE01 = (function (m) {
     // Quick import all from MAIN
     for( g in m ){ this[g] = m[g] }
 
@@ -103,7 +103,28 @@ var FEATURE = (function (m) {
         init: init
     }
 
-})(MAIN)//FEATURE
-FEATURE.init()    
+})(MAIN)//FEATURE01
+
+var FEATURE02 = (function (m) {
+    // Quick import all from MAIN
+    for( g in m ){ this[g] = m[g] }
+
+    var
+    init = function(){
+        some()
+    },        
+    some = function(){
+        // DO stuff
+    }
+
+    return{
+        init: init
+    }
+
+})(MAIN)//FEATURE02
+
+
+FEATURE01.init();  
+FEATURE02.init();    
     
 })//End of File
