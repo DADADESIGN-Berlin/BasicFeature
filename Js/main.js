@@ -1,32 +1,37 @@
+$(function(){
 /*
 // main.js
 // This code is free to use or distribute.
 // Copyright (C) 2018-2019 by Christian Schoepp
 */
+
+
+// Polyfill the window objects
+// 'requestAnimationFrame' and
+// 'cancelAnimationFrame'
+
+var animationFrameTimeout;
+var requestAnimationFrame =
+    window.requestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.msRequestAnimationFrame ||
+    function( callback ){
+        animationFrameTimeout =
+        window.setTimeout(callback, 1000 / 60);
+    };
+window.requestAnimationFrame = requestAnimationFrame;
+var cancelAnimationFrame =
+    window.cancelAnimationFrame ||
+    window.mozCancelAnimationFrame ||
+    clearTimeout(animationFrameTimeout);
+window.cancelAnimationFrame = cancelAnimationFrame;
+
 var MAIN = (function() {
+    
     // Main project module 'MAIN'
     // provides basic helper
-    // methods and variables
-
-    // Polyfill the window objects
-    // 'requestAnimationFrame' and
-    // 'cancelAnimationFrame'
-    var animationFrameTimeout;
-    var requestAnimationFrame =
-        window.requestAnimationFrame ||
-        window.mozRequestAnimationFrame ||
-        window.webkitRequestAnimationFrame ||
-        window.msRequestAnimationFrame ||
-        function( callback ){
-            animationFrameTimeout =
-            window.setTimeout(callback, 1000 / 60);
-        };
-    window.requestAnimationFrame = requestAnimationFrame;
-    var cancelAnimationFrame =
-        window.cancelAnimationFrame ||
-        window.mozCancelAnimationFrame ||
-        clearTimeout(animationFrameTimeout);
-    window.cancelAnimationFrame = cancelAnimationFrame;
+    // methods and variables    
 
     // Project globals
     var
@@ -112,3 +117,6 @@ var FEATURE = (function (m) {
 
 })(MAIN)//FEATURE
 FEATURE.init()
+    
+    
+})//End of File
