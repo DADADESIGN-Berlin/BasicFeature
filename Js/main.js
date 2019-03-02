@@ -1,4 +1,4 @@
-$(function(){
+(function(){
 /*
 // main.js
 // This code is free to use or distribute.
@@ -128,4 +128,4 @@ var FEATURE02 = (function (m) {
 FEATURE01.init();  
 //FEATURE02.init();    
     
-})//End of File
+})()/End of File
