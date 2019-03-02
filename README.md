@@ -60,7 +60,9 @@ var MODUL = (function(){
     init = function(){
     
         var 
-        instance = new Contructor(5);
+        instance = new Constructor(5);
+        
+        console.log(instance.x);// 5
         
     },
     Constructor = function(a){
