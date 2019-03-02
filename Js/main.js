@@ -5,33 +5,32 @@ $(function(){
 // Copyright (C) 2018-2019 by Christian Schoepp
 */
 
-
 // Polyfill the window objects
 // 'requestAnimationFrame' and
 // 'cancelAnimationFrame'
-
+    
 var animationFrameTimeout;
 var requestAnimationFrame =
-    window.requestAnimationFrame ||
-    window.mozRequestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
-    window.msRequestAnimationFrame ||
-    function( callback ){
-        animationFrameTimeout =
-        window.setTimeout(callback, 1000 / 60);
-    };
+window.requestAnimationFrame ||
+window.mozRequestAnimationFrame ||
+window.webkitRequestAnimationFrame ||
+window.msRequestAnimationFrame ||
+function( callback ){
+    animationFrameTimeout =
+    window.setTimeout(callback, 1000 / 60);
+};
 window.requestAnimationFrame = requestAnimationFrame;
 var cancelAnimationFrame =
-    window.cancelAnimationFrame ||
-    window.mozCancelAnimationFrame ||
-    clearTimeout(animationFrameTimeout);
+window.cancelAnimationFrame ||
+window.mozCancelAnimationFrame ||
+clearTimeout(animationFrameTimeout);
 window.cancelAnimationFrame = cancelAnimationFrame;
 
 var MAIN = (function() {
     
     // Main project module 'MAIN'
-    // provides basic helper
-    // methods and variables    
+    // provides helper methods
+    // and project globals    
 
     // Project globals
     var
@@ -48,6 +47,7 @@ var MAIN = (function() {
         $(window).scroll(scroller);
         $(window).resize(resizer);
     },
+    // Helper methods
     info = function(a){
         console.log(a)
     },
@@ -87,28 +87,16 @@ var MAIN = (function() {
 })();//MAIN
 
 
-
 var FEATURE = (function (m) {
     // Quick import all from MAIN
     for( g in m ){ this[g] = m[g] }
 
     var
     init = function(){
-        show()
-    },
-    show = function(){
-        var
-        output = '';
-        // Now you can locally access
-        // all the MAIN methods and
-        // write clean readable code, see:
-        loop(10, function(i){
-            output +=
-            '<p>' + i + ': ' + rand( 50, 100, true) + '</p>'
-        })
-
-        $body.prepend( output )
-
+        some()
+    },        
+    some = function(){
+        // DO stuff
     }
 
     return{
@@ -116,7 +104,6 @@ var FEATURE = (function (m) {
     }
 
 })(MAIN)//FEATURE
-FEATURE.init()
-    
+FEATURE.init()    
     
 })//End of File
