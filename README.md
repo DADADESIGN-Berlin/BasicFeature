@@ -3,7 +3,7 @@
 ## Js/main.js ##
 
 This is how I use **revealing module patterns** to organize and encapsulate my code in all my projects with 0% usage of the global namespace.
-It makes it very easy to import features from other modulare projects and it provides easy access to a bunch of global helpers.
+It makes it very easy to import features from one project to another and it provides easy access to a bunch of global helpers.
 
 I sometimes vary a little bit from common coding style, but I find it very useful to do it like this and encourage all of you to pick up what you like.
 
