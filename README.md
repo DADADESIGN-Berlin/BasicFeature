@@ -49,5 +49,35 @@ When creating DOM objects with jQuery, I find it more consistent to do it with s
 $div = $('<div class="box"></div>');
 ```
 
+## Encapsulating code:
+
+I use the 'revealing modulare pattern' for encapsulation most of the times.
+I would even encapsulate a contructor in such a pattern.
+It makes it easy to turn on/off the feature, which is nice for debugging and it makes it easy portable in minutes to another project.
+
+```javascript
+var MODUL = (function(){
+    var 
+    init = function(){
+    
+        var 
+        instance = new Contructor()    
+        
+    },
+    Constructor = function(a){
+        this.x = a
+    }
+    
+    
+    return {
+        init: init
+    }
+    
+})()
+```
+
+**Explanation:**
+
+
 
 
