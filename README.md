@@ -14,7 +14,7 @@ echo Create a new folder and clone from https://github.com/DADADESIGN-Berlin/bas
 SET /p folderName=Name of folder?
 git clone https://github.com/DADADESIGN-Berlin/basicFeature %folderName% && code %folderName%
 ```
-Now you can really kickstart new features in a second. Go to your project-folder on the CMD and prompt:
+Now you can really kickstart new features in a second. Go to your worling folder on the CMD and prompt:
 
 G:/__LABOR>```create_new_feature ```
 
