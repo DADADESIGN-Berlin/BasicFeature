@@ -9,14 +9,12 @@ I sometimes vary a little bit from common coding style, but I find it very usefu
 
 Having VSC installed you could create a batch file in your working folder and name it 'create_new_feature.bat':
 ```bash
-@echo off
-echo Create a new folder and clone from https://github.com/DADADESIGN-Berlin/basicFeature
-SET /p folderName=Name of folder?
-git clone https://github.com/DADADESIGN-Berlin/basicFeature %folderName% && code %folderName%
+@ echo off
+git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1
 ```
 Now you can really kickstart new features in a second. Go to your working folder in CMD and prompt:
 
-G:/__LABOR>```create_new_feature ```
+G:/__LABOR>```create_new_feature my_feature_01```
 
 
 ## Declaring variables:
