@@ -16,7 +16,7 @@ git clone https://github.com/DADADESIGN-Berlin/basicFeature %folderName% && code
 ```
 Now you can kickstart new features in a second. Go to your project-folder on the CMD and type:
 ```cmd
-create_new_folder
+G:/__LABOR>create_new_folder
 ```
 
 
