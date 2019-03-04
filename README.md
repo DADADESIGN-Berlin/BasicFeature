@@ -7,14 +7,14 @@ It makes it very easy to import features from one project to another and it prov
 
 I sometimes vary a little bit from common coding style, but I find it very useful to do it like this and encourage all of you to pick up what you like.
 
-Having VSC installed, create a batch file in your working folder and name it 'create_new_feature.bat':
+Having VSC installed, create a batch file in your working folder and name it 'create_feature.bat':
 ```bash
 @ echo off
 git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1
 ```
 Go to your working folder in CMD and kickstart a new feature in a second:
 
-G:/__LABOR>```create_new_feature MY_NEW_FEATURE```
+G:/__LABOR>```create_feature MY_NEW_FEATURE```
 
 
 ## Declaring variables:
