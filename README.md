@@ -14,7 +14,7 @@ git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1
 ```
 Now you can really kickstart new features in a second. Go to your working folder in CMD and prompt:
 
-G:/__LABOR>```create_new_feature my_feature_01```
+G:/__LABOR>```create_new_feature MYFEATURE```
 
 
 ## Declaring variables:
