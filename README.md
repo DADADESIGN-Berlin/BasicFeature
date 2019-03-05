@@ -63,8 +63,14 @@ In my daily workflow it is really a huge timesaver to be able to port features q
 
 ```javascript
 var SCROLLSMOOTH = (function(){
-
-...
+    var 
+    init = function(){
+        ...
+    }    
+    
+    return {
+        init: init
+    }    
 
 }()//SCROLLSMOOTH
 
@@ -81,9 +87,9 @@ var PRODUCTCARD = (function(){
 }()//PRODUCTCARD
 
 
-SCROLLSMOOTH.init(;
-SCROLLFXINTRO.init(;
-//PRODUCTCARD.init(;
+SCROLLSMOOTH.init();
+SCROLLFXINTRO.init();
+//PRODUCTCARD.init();
 
 ```
 For creation it is cool to be able to turn on/off features at on place.
