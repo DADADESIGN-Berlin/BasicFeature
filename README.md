@@ -59,7 +59,7 @@ $div = $('<div class="box"></div>');
 
 ## Encapsulating code:
 
-I use the **'revealing module pattern'** for encapsulation most of the times.
+In my daily workflow it is really a huge timesaver to be able to port features quickly. 
 
 ```javascript
 var FEATURE = (function(){
@@ -87,6 +87,5 @@ var FEATURE = (function(){
 FEATURE.init();
 
 ```
-In my daily workflow it is really a huge timesaver to be able to port features quickly. I always encapsulate pieces that would be nice to have in other projects.
 
 
