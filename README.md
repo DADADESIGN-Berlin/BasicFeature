@@ -12,7 +12,7 @@ Having VSC installed, create a batch file in your working folder and name it 'cr
 @ echo off
 git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1
 ```
-Go to your working folder in CMD and kickstart a new feature in a second:
+Go to your working folder in CMD and kickstart new features in a second:
 
 G:/__LABOR>```create_feature MY_NEW_FEATURE```
 
