@@ -86,8 +86,8 @@ SCROLLFXINTRO.init(;
 //PRODUCTCARD.init(;
 
 ```
-For creation it is cool to be able turn on/off features at on place.
-Having the DOM-access always on top makes it easy to adjust the code all over the projects. 
+For creation it is cool to be able to turn on/off features at on place.
+Having the DOM-access always on top makes it easy to adjust the code for other projects. 
 
 
 
