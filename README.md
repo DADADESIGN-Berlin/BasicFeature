@@ -12,7 +12,7 @@ I created a batch file in my working folder and named it 'create_feature.bat':
 @ echo off
 git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1
 ```
-Kickstarting a new feature-prototype in one second is nice:
+Kickstarting a new prototype in a second is nice:
 
 G:/__LABOR>```create_feature MY_NEW_FEATURE```
 
