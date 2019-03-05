@@ -32,7 +32,7 @@ console.log(str);
 ```
 
 **Explanation:**
-I find it easier for the eyes to have it all verical lined up.
+I find it easier for the eyes to have it all vertical lined up.
  
  
  
