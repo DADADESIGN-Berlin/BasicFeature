@@ -12,7 +12,7 @@ I sometimes vary a little bit from common coding style, but I find it very usefu
 @ echo off
 git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1
 ```
-Kickstarting a prototype in a second is nice:
+Kickstarting a new prototype in a second is nice:
 
 G:/__LABOR>```create_feature MY_NEW_FEATURE```
 
