@@ -59,12 +59,13 @@ $div = $('<div class="box"></div>');
 
 ## Encapsulating code:
 
-I use the 'revealing module pattern' for encapsulation most of the times.
-I would even encapsulate a constructor in such a pattern. This makes it very easy to reuse features all over your projects.
+I use the **'revealing module pattern'** for encapsulation most of the times.
+I would even encapsulate a constructor in this pattern. 
 
 ```javascript
-var MODUL = (function(){
+var FEATURE = (function(){
     var 
+    $myBox = $('#myBox'),
     init = function(){
     
         var 
@@ -82,8 +83,11 @@ var MODUL = (function(){
         init: init
     }
     
-})()//MODUL
+})()//FEATURE
 
-MODUL.init();
+FEATURE.init();
 
 ```
+In my daily workflow it is really a huge timesaver to be able to port features quickly. I always encapsulate pieces that would be nice to have in other projects. Having the DOM-access strictly on top of the modules makes it easy to adjust the code. 
+
+
