@@ -87,6 +87,6 @@ var FEATURE = (function(){
 FEATURE.init();
 
 ```
-In my daily workflow it is really a huge timesaver to be able to port features quickly. I always encapsulate pieces that would be nice to have in other projects. Having the DOM-access strictly on top of the modules makes it easy to adjust the code. 
+In my daily workflow it is really a huge timesaver to be able to port features quickly. I always encapsulate pieces that would be nice to have in other projects.
 
 
