@@ -19,7 +19,7 @@ G:/__LABOR>```create_feature MY_NEW_FEATURE```
 
 ## Declaring variables:
 
-1.) Whenever it is likely that there will be more then one variable declared, I like to split the var-keyword and the declaration in multiple lines and declare all variables in a list like this:
+1.) Whenever it is likely that there will be more than one variable declared, I like to split the var-keyword and the declaration in multiple lines and declare all variables in a list like this:
 
 ```javascript
 var
