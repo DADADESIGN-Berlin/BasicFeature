@@ -94,13 +94,13 @@ Having the DOM-access always on top makes it easy to adjust the code all over th
 ```javascript
 var FEATURE = (function(){
     var 
-    $myBox = $('#myBox'),
+    $box = $('#myLongNamedFeatureBox'),
     init = function(){
     
         var 
         instance = new Constructor(5);
         
-        $myBox.html('X is ' + instance.x);// X is 5
+        $box.html('X is ' + instance.x);// X is 5
         
     },
     Constructor = function(a){
