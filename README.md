@@ -70,7 +70,7 @@ var FEATURE = (function(){
         var 
         instance = new Constructor(5);
         
-        console.log(instance.x);// 5
+        $myBox.html('X is ' + instance.x);// X is 5
         
     },
     Constructor = function(a){
