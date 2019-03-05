@@ -60,7 +60,6 @@ $div = $('<div class="box"></div>');
 ## Encapsulating code:
 
 I use the **'revealing module pattern'** for encapsulation most of the times.
-I would even encapsulate a constructor in this pattern. 
 
 ```javascript
 var FEATURE = (function(){
