@@ -123,7 +123,7 @@ var FEATURE = (function(){
 FEATURE.init();
 
 ```
-
+```javascript
 //Empty Feature Modul
 
 var FEATURE01 = (function (m) {
@@ -145,3 +145,4 @@ var FEATURE01 = (function (m) {
 
 FEATURE01.init();
 
+```
