@@ -94,10 +94,7 @@ var FEATURE01 = (function (m) {
         some()
     },
     some = function(){
-        // Do stuff, write easy
-        loop(5,function(i){
-            info(i)
-        })
+        
     }
 
     return{
