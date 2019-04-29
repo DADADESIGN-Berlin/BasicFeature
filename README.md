@@ -124,4 +124,24 @@ FEATURE.init();
 
 ```
 
+//Empty Feature Modul
+
+var FEATURE01 = (function (m) {
+    for( g in m ){ this[g] = m[g] }
+
+    var
+    init = function(){
+        some()
+    },
+    some = function(){
+        
+    }
+
+    return{
+        init: init
+    }
+
+})(MAIN)//FEATURE01
+
+FEATURE01.init();
 
