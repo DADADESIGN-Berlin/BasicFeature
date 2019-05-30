@@ -19,8 +19,7 @@ G:/__LABOR>```new_feature MY_NEW_FEATURE```
 
 ## Declaring variables:
 
-1.) Whenever it is likely that there will be more than one variable declared, I like to split the var-keyword and the declaration in multiple lines and declare all variables in a list like this:
-
+1.) I declare all variables on top of the function, as a comma-spereated list. At the bottom of the list I always put a vertical space to indicate the end of the declaration. 
 ```javascript
 var
 str = 'text ',
@@ -32,7 +31,7 @@ console.log(str);
 ```
 
 **Explanation:**
-I find it easier for the eyes to have it all vertical lined up.
+Less code. Quicker introduction to new variables. Better indentation.
  
  
  
