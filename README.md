@@ -58,11 +58,12 @@ $div = $('<div class="box"></div>');
 
 ## Encapsulating code:
 
-In my daily workflow it is really a huge timesaver to be able to port features quickly. 
+Iit is really a huge timesaver to be able to port features quickly. DOM-access always on top makes features easier portable.
 
 ```javascript
 var SCROLLSMOOTH = (function(){
-    var 
+    var
+    $scrollContainer = $('scrollContainer'),
     init = function(){
         ...
     }    
@@ -91,37 +92,10 @@ SCROLLFXINTRO.init();
 //PRODUCTCARD.init();
 
 ```
-For creation it is cool to be able to turn on/off features at on place.
-Having the DOM-access always on top makes it easy to adjust the code for other projects. 
 
 
+## Empty Basic Feature
 
-```javascript
-var FEATURE = (function(){
-    var 
-    $box = $('#myLongNamedFeatureBox'),
-    init = function(){
-    
-        var 
-        instance = new Constructor(5);
-        
-        $box.html('X is ' + instance.x);// X is 5
-        
-    },
-    Constructor = function(a){
-        this.x = a;
-    }
-    
-    
-    return {
-        init: init
-    }
-    
-})()//FEATURE
-
-FEATURE.init();
-
-```
 ```javascript
 //Empty Feature Modul
 
