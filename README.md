@@ -58,12 +58,13 @@ $div = $('<div class="box"></div>');
 
 ## Encapsulating code:
 
-Iit is really a huge timesaver to be able to port features quickly. DOM-access always on top makes features easier portable.
+DOM-access always on top makes features easier portable/adaptable. 
+Initiating all features at on place - easy debugging.
 
 ```javascript
 var SCROLLSMOOTH = (function(){
     var
-    $scrollContainer = $('scrollContainer'),
+    $scrollContainer = $('#scrollContainer'),
     init = function(){
         ...
     }    
@@ -86,6 +87,8 @@ var PRODUCTCARD = (function(){
 
 }()//PRODUCTCARD
 
+
+////Initiation////
 
 SCROLLSMOOTH.init();
 SCROLLFXINTRO.init();
