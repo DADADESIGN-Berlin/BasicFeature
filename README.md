@@ -5,8 +5,6 @@
 This is how I use **revealing module patterns** to organize and encapsulate the JavaScript-code in my projects.
 It makes it very easy to export features to other projects and it provides easy access to a bunch of global helpers.
 
-I sometimes vary a little bit from common coding style, but I find it very useful to do it like this and encourage all of you to pick up what you like.
-
 ( Having VSC and Chrome installed ) Create a batch file in your working folder and name it 'new_feature.bat':
 ```bash
 @ echo off
