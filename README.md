@@ -19,7 +19,7 @@ G:/__LABOR>```new_feature MY_NEW_FEATURE```
 
 ## Declaring variables:
 
-1.) I declare all variables on top of a function, as a comma-spereated list. At the bottom of the list I always put a vertical space to indicate the end of the declaration. 
+1.) I declare all variables on top of a function, as a comma-seperated list. At the bottom of the list I always add a vertical space to indicate the end of the declaration. 
 ```javascript
 var
 str = 'text ',
