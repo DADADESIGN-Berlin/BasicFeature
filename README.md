@@ -8,7 +8,7 @@ It makes it very easy to export features to other projects and it provides easy 
 ( Having VSC and Chrome installed ) Create a batch file in your working folder and name it 'new_feature.bat':
 ```bash
 @ echo off
-git clone https://github.com/DADADESIGN-Berlin/basicFeature %1 && code %1 && start chrome %1/index.html
+git clone https://github.com/DADADESIGN-Berlin/BasicFeature %1 && code %1 && start chrome %1/index.html
 ```
 Kickstarting a new prototype in a second is nice:
 
