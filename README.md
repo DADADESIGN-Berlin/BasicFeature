@@ -20,7 +20,7 @@ G:/__LABOR>```new_feature MY_NEW_FEATURE```
 1.) I declare all variables on top of a function, as a comma-seperated list. At the bottom of the list I always add a vertical space to indicate the end of the declaration. 
 ```javascript
 var
-str = 'text ',
+str = 'text',
 alt = 'alt text';
 
 str += alt;
