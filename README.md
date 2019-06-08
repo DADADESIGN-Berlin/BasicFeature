@@ -10,7 +10,7 @@ It makes it very easy to export features to other projects and it provides easy 
 @ echo off
 git clone https://github.com/DADADESIGN-Berlin/BasicFeature %1 && code %1 && start chrome %1/index.html
 ```
-Kickstarting a new prototype in a second is nice:
+Kickstarting a new feature in a second is nice:
 
 G:/__LABOR>```new_feature MY_NEW_FEATURE```
 
