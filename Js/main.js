@@ -42,7 +42,7 @@ var MAIN = (function() {
         scrollPosition = $(document).scrollTop();
         windowHeight = $(window).height();
         windowWidth = $(window).width();
-        is_desktop = ($(window).outerWidth()<=768) ? false : true;
+        is_desktop = ($(window).outerWidth()>768) ? true : false;
         $(window).scroll(scroller);
         $(window).resize(resizer);
     },
