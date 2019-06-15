@@ -103,6 +103,7 @@ var FEATURE01 = (function (m) {
 
 })(MAIN)//FEATURE01
 
+//INITIALIZE
 FEATURE01.init();
 
 })(jQuery)//End of File
