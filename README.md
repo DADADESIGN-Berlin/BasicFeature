@@ -57,7 +57,7 @@ $div = $('<div class="box"></div>');
 ## Encapsulating code:
 
 DOM-access always on top makes features easier portable/adaptable. 
-Initiating all features at on place - easy debugging.
+Initializing all features at on place - easy debugging.
 
 ```javascript
 var SCROLLSMOOTH = (function(){
