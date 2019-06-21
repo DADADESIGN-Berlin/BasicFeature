@@ -86,7 +86,7 @@ var PRODUCTCARD = (function(){
 }()//PRODUCTCARD
 
 
-////Initiation////
+////Initialize////
 
 SCROLLSMOOTH.init();
 SCROLLFXINTRO.init();
